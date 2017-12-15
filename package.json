@@ -14,5 +14,21 @@
     "url": "https://github.com/airt/tslint-config-levi/issues"
   },
   "main": "tslint.js",
+  "dependencies": {
+    "tslint-config-prettier": "^1.0.0",
+    "tslint-config-standard": "^7.0.0",
+    "tslint-eslint-rules": "^4.0.0",
+    "tslint-immutable": "^4.0.0",
+    "tslint-plugin-prettier": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "~1.9.0",
+    "tslint": "^5.0.0",
+    "typescript": "^2.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "^1.9.0",
+    "tslint": "^5.0.0"
+  },
   "scripts": {}
 }
