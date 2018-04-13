@@ -15,13 +15,13 @@ module.exports = {
   rules: {
     prettier: [true],
     // --- additional ---
-    'array-type': [true, 'generic'],
     // "dot-location": [true, "object"],
     'linebreak-style': [true, 'LF'],
     'no-null-keyword': [true],
     'only-arrow-functions': [true],
     // --- overridden ---
     'no-unused-variable': { severity: 'warning' },
+    'no-use-before-declare': false,
     quotemark: [true, 'single', 'avoid-escape', 'jsx-double'],
     'space-before-function-paren': [
       true,
