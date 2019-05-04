@@ -7,9 +7,9 @@ module.exports = {
     'tslint-eslint-rules',
     // https://github.com/blakeembrey/tslint-config-standard
     'tslint-config-standard',
-    // https://github.com/ikatyang/tslint-plugin-prettier
+    // https://github.com/prettier/tslint-plugin-prettier
     'tslint-plugin-prettier',
-    // https://github.com/alexjoverm/tslint-config-prettier
+    // https://github.com/prettier/tslint-config-prettier
     'tslint-config-prettier',
   ],
   rules: {
@@ -20,8 +20,6 @@ module.exports = {
     'no-null-keyword': [true],
     'only-arrow-functions': [true],
     // --- overridden ---
-    'no-unused-variable': { severity: 'warning' },
-    'no-use-before-declare': false,
     quotemark: [true, 'single', 'avoid-escape', 'jsx-double'],
     'space-before-function-paren': [
       true,
@@ -42,7 +40,6 @@ module.exports = {
           imports: 'always',
           exports: 'always',
           functions: 'always',
-          typeLiterals: 'never',
         },
       },
     ],
