@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-levi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,15 +16,15 @@
   "main": "tslint.js",
   "dependencies": {
     "tslint-config-prettier": "^1.0.0",
-    "tslint-config-standard": "^7.0.0",
+    "tslint-config-standard": "^8.0.0",
     "tslint-eslint-rules": "^5.0.0",
-    "tslint-immutable": "^4.0.0",
-    "tslint-plugin-prettier": "^1.0.0"
+    "tslint-immutable": "^5.0.0",
+    "tslint-plugin-prettier": "^2.0.0"
   },
   "devDependencies": {
     "prettier": "^1.0.0",
     "tslint": "^5.0.0",
-    "typescript": "^2.0.0"
+    "typescript": "^3.0.0"
   },
   "peerDependencies": {
     "prettier": "^1.0.0",
